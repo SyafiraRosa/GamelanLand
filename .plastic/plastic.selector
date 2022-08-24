@@ -1,0 +1,4 @@
+repository "Gamelan Metaverse Update 5@GamelanMetaMeta@cloud"
+  path "/"
+    br "/main"
+    co "/main"

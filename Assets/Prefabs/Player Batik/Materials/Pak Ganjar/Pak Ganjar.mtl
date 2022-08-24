@@ -1,0 +1,13 @@
+# Blender MTL File: 'Low Poly Metaverse.blend'
+# Material Count: 1
+
+newmtl Pak_Ganjar_Material
+Ns 0.743800
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 0.496933 0.274677
+Ks 0.063636 0.063636 0.063636
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd F:\\Kuliah\\Semester 7\\miSC\\Pak Ganjar_FinalTexture.png
