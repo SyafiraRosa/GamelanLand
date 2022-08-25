@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028352, g: 0.22571376, b: 0.30692244, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -15318,7 +15318,6 @@ GameObject:
   - component: {fileID: 686317959}
   - component: {fileID: 686317958}
   - component: {fileID: 686317957}
-  - component: {fileID: 686317961}
   m_Layer: 0
   m_Name: pelog_ciblon_membran2 (Collider)
   m_TagString: Untagged
@@ -15418,18 +15417,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 686317955}
   m_Mesh: {fileID: -6357906894083430999, guid: 1b4fefdfccafcb94c82f703edf8b80e4, type: 3}
---- !u!114 &686317961
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 686317955}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 11b3ea400e4e7fa41bb040a919eeab57, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &687074186
 GameObject:
   m_ObjectHideFlags: 0
@@ -24666,7 +24653,6 @@ GameObject:
   - component: {fileID: 1150653397}
   - component: {fileID: 1150653396}
   - component: {fileID: 1150653395}
-  - component: {fileID: 1150653399}
   m_Layer: 0
   m_Name: pelog_ketipung_membran1 (Collider)
   m_TagString: Untagged
@@ -24766,18 +24752,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1150653393}
   m_Mesh: {fileID: -8298069888557988043, guid: 1b4fefdfccafcb94c82f703edf8b80e4, type: 3}
---- !u!114 &1150653399
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1150653393}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3d8b05ca917eb884aa5cce2f31cb06ae, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1154010878
 GameObject:
   m_ObjectHideFlags: 0
@@ -28723,7 +28697,6 @@ GameObject:
   - component: {fileID: 1338058899}
   - component: {fileID: 1338058898}
   - component: {fileID: 1338058897}
-  - component: {fileID: 1338058901}
   m_Layer: 0
   m_Name: pelog_ketipung_membran2 (Collider)
   m_TagString: Untagged
@@ -28823,18 +28796,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1338058895}
   m_Mesh: {fileID: 1628102579681276689, guid: 1b4fefdfccafcb94c82f703edf8b80e4, type: 3}
---- !u!114 &1338058901
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1338058895}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a710a4d4aab88154dad4a49cee119a8b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1342939226
 GameObject:
   m_ObjectHideFlags: 0
@@ -30006,7 +29967,6 @@ GameObject:
   - component: {fileID: 1378214085}
   - component: {fileID: 1378214084}
   - component: {fileID: 1378214082}
-  - component: {fileID: 1378214086}
   - component: {fileID: 1378214083}
   m_Layer: 0
   m_Name: pelog_ageng_membran1 (Collider)
@@ -30107,18 +30067,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1378214080}
   m_Mesh: {fileID: -3441139667724201220, guid: 1b4fefdfccafcb94c82f703edf8b80e4, type: 3}
---- !u!114 &1378214086
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1378214080}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cf3a057976e089544902874f69aa4dda, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1382248349
 GameObject:
   m_ObjectHideFlags: 0
@@ -37597,7 +37545,6 @@ GameObject:
   - component: {fileID: 1709296344}
   - component: {fileID: 1709296343}
   - component: {fileID: 1709296342}
-  - component: {fileID: 1709296346}
   m_Layer: 0
   m_Name: pelog_ciblon_membran1 (Collider)
   m_TagString: Untagged
@@ -37697,18 +37644,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1709296340}
   m_Mesh: {fileID: -3139294836882622498, guid: 1b4fefdfccafcb94c82f703edf8b80e4, type: 3}
---- !u!114 &1709296346
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1709296340}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1200e4e1394f87c469de079aa4ca1d61, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1713305917
 GameObject:
   m_ObjectHideFlags: 0
@@ -38753,32 +38688,32 @@ MonoBehaviour:
     pitch: 1
     source: {fileID: 0}
   - name: Ciblon_Dah
-    clip: {fileID: 8300000, guid: 8742ad7d721986d4b8b57fbff1e644e7, type: 3}
+    clip: {fileID: 8300000, guid: 188067362098e23499801e3bbf0f7262, type: 3}
     volume: 3
     pitch: 1
     source: {fileID: 0}
   - name: Ciblon_Lung
-    clip: {fileID: 8300000, guid: cf0890018f8c633469db4470d5b7b2be, type: 3}
+    clip: {fileID: 8300000, guid: 7debac104ad525646ab5d6df02d434a4, type: 3}
     volume: 3
     pitch: 1
     source: {fileID: 0}
   - name: Ciblon_Tak
-    clip: {fileID: 8300000, guid: d299189ce1f225e44bde11131538c002, type: 3}
+    clip: {fileID: 8300000, guid: f12bab1c2ce687641a08806ccac7953e, type: 3}
     volume: 3
     pitch: 1
     source: {fileID: 0}
   - name: Ciblon_Tok
-    clip: {fileID: 8300000, guid: 3008a2e114bad9b47a75f70585a1923b, type: 3}
+    clip: {fileID: 8300000, guid: f2b0efae08adf224ab80a06670e817ac, type: 3}
     volume: 3
     pitch: 1
     source: {fileID: 0}
   - name: Ciblon_Tong
-    clip: {fileID: 8300000, guid: 21e21bd8e37ef9041916479fb9e3eefc, type: 3}
+    clip: {fileID: 8300000, guid: 691da4f5cf464f743b1cc5e463dbffb6, type: 3}
     volume: 3
     pitch: 1
     source: {fileID: 0}
   - name: Ciblon_Tung
-    clip: {fileID: 8300000, guid: 5f94bdd157e54e045988d2067251e79c, type: 3}
+    clip: {fileID: 8300000, guid: 116ba5c0104710d44a5f46d93febfdd5, type: 3}
     volume: 3
     pitch: 1
     source: {fileID: 0}
@@ -43962,7 +43897,6 @@ GameObject:
   - component: {fileID: 1988169391}
   - component: {fileID: 1988169390}
   - component: {fileID: 1988169389}
-  - component: {fileID: 1988169394}
   m_Layer: 0
   m_Name: pelog_ageng_membran2 (Collider)
   m_TagString: Untagged
@@ -44062,18 +43996,6 @@ Transform:
   m_Father: {fileID: 2075387133}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -7.118}
---- !u!114 &1988169394
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1988169388}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 064692a6e3c565f4abef5b4f2c7ff3b9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!4 &1989111102 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8340568379558414525, guid: f9a65f307a38ea04ebd4914a8bea1c5c, type: 3}
