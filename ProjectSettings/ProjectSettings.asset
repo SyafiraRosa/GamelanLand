@@ -13,7 +13,7 @@ PlayerSettings:
   useOnDemandResources: 0
   accelerometerFrequency: 60
   companyName: UDINUS
-  productName: Gamelan Land - Metaverse Udinus
+  productName: Gamelan Land - Metaverse Udinus 2
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0, g: 0, b: 0, a: 1}
@@ -384,6 +384,11 @@ PlayerSettings:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: edee8f33bf81397419529977d4028496, type: 2}
+  - {fileID: 2555472541463415593, guid: 61a0e444c443af74abc6fcb20c5482b5, type: 2}
+  - {fileID: 0}
+  - {fileID: -8997060165245222561, guid: ddbca70930e341b4aa03aba60b60c706, type: 2}
   metroInputSource: 0
   wsaTransparentSwapchain: 0
   m_HolographicPauseOnTrackingLoss: 1
@@ -401,7 +406,7 @@ PlayerSettings:
   androidSupportedAspectRatio: 1
   androidMaxAspectRatio: 2.1
   applicationIdentifier:
-    Android: com.UDINUS.GamelanLandMetaverseUdinus
+    Android: com.UDINUS.GamelanLandMetaverseUdinus2
     Standalone: com.UDINUS.GamelanLand-Udinus14
   buildNumber:
     Standalone: 0

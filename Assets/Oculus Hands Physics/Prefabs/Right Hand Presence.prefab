@@ -60,6 +60,7 @@ GameObject:
   - component: {fileID: 2351157057744577219}
   - component: {fileID: 4013754470274963129}
   - component: {fileID: 8034611617287178555}
+  - component: {fileID: 5211447108197777764}
   - component: {fileID: 424423875335711253}
   m_Layer: 3
   m_Name: Pemukul Kendang kanan
@@ -156,10 +157,23 @@ SphereCollider:
   m_GameObject: {fileID: 5088534917817964730}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!65 &5211447108197777764
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5088534917817964730}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.8123886, y: 1, z: 2.1156633}
+  m_Center: {x: 0.09380581, y: 0, z: -0.025857408}
 --- !u!114 &424423875335711253
 MonoBehaviour:
   m_ObjectHideFlags: 0
