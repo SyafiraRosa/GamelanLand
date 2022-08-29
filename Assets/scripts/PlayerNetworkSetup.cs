@@ -15,6 +15,10 @@ public class PlayerNetworkSetup : MonoBehaviourPunCallbacks
     public GameObject AvatarBodyGameObject;
     public GameObject AvatarNameObject;
 
+    //setting seing hand for PC
+    public GameObject lefthandPC;
+    public GameObject righthandPC;
+
     public GameObject[] AvatarModelPrefabs;
     // Start is called before the first frame update
     void Start()
@@ -55,7 +59,25 @@ public class PlayerNetworkSetup : MonoBehaviourPunCallbacks
     // Update is called once per frame
     void Update()
     {
-        
+        if (photonView.IsMine){
+            //Setting for PC
+            if(Input.GetKey(KeyCode.P)){
+                GetComponent<Playergerakkeyboard>().enabled = true;
+                lefthandPC.SetActive(false);
+                righthandPC.SetActive(false);
+                AvatarNameObject.SetActive(false);
+                AvatarBodyGameObject.SetActive(false);
+                AvatarHeadGameObject.SetActive(false);
+            }
+            if(Input.GetKey(KeyCode.O)){
+                GetComponent<Playergerakkeyboard>().enabled = false;
+                lefthandPC.SetActive(true);
+                righthandPC.SetActive(true);
+                AvatarNameObject.SetActive(true);
+                AvatarBodyGameObject.SetActive(true);
+                AvatarHeadGameObject.SetActive(true);
+            }
+        }
     }
 
     void SetLayerRecursively(GameObject go, int layerNumber)
