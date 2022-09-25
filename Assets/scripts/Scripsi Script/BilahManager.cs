@@ -15,21 +15,29 @@ public class BilahManager : MonoBehaviour
     //Change color
     Renderer rend;
 
+    int color_index = 0;
+
     IEnumerator startDelay(){
-        for(int j = 0; j < notes.Length; j++){
-            for(int i = 1; i < bilah.Length; i++){
-                Collider isBilah = bilah[i].GetComponent<Collider>();
-                Collider isPukul = tempatPukul[i].GetComponent<Collider>();
-                rend = bilah[i].GetComponent<Renderer>();
-                if(notes[j] == i+1){
+        foreach(int note in notes){
+            for(int i = 1; i < bilah.Length+1; i++){
+                Collider isBilah = bilah[i-1].GetComponent<Collider>();
+                Collider isPukul = tempatPukul[i-1].GetComponent<Collider>();
+                rend = bilah[i-1].GetComponent<Renderer>();
+                if(note == i){
                     isBilah.enabled = false;
                     isPukul.enabled = true;
                     rend.material = matColor[1];
+                    color_index ++;
                     yield return new WaitForSeconds(2f);
-                    isBilah.enabled = true;
-                    isPukul.enabled = false;
-                    rend.material = matColor[0];
-                }
+                    if(color_index > 0){
+                        isBilah.enabled = true;
+                        isPukul.enabled = false;
+                        rend.material = matColor[0];
+                        Debug.Log("if berjalan "+color_index);
+                    }
+                    color_index --;
+                    
+                }    
             }
         }
         // foreach (int note in notes)
